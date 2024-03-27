@@ -384,6 +384,10 @@ background: #bc6c25;
   font-family: 'DM Sans', sans-serif;
   color: #606c38;
 }
+hr{
+  background: #bc6c25;
+  padding: 3px;
+}
 
 /* Responsive Css */
 
