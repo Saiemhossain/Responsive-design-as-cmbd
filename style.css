@@ -404,7 +404,7 @@ background: #bc6c25;
   }
 
   .hero-wrapper{
-    display: block;
+     padding-bottom: 50px;
   }
   .hero-content{
     padding-bottom: 50px;
@@ -586,7 +586,12 @@ background: #bc6c25;
    padding: 0;
   }
 }
-
-
-
- 
+  @media (max-width:360px){
+ .btn-1{
+  display: none;
+ }
+ nav {
+	display: flex;
+	gap: 6px;
+}
+} 
